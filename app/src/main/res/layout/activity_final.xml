@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Final">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+
+
+
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/prediction"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/head"
+
+                android:textColor="#0B5712"
+                android:textSize="45px"
+                android:textStyle="bold"></TextView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="35dp"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/images"
+
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imground"
+>
+
+    </ImageView>
+</androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/textet"
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="270dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/disease"
+                android:textColor="#09020B"
+
+
+                android:textSize="40px"></TextView>
+
+            <TextView
+                android:id="@+id/textett"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="270dp"
+                android:layout_toRightOf="@+id/textet"
+
+                android:fontFamily="sans-serif-black"
+
+                android:textColor="#AF0F0F"
+
+
+                android:textSize="40px"></TextView>
+
+
+            <TextView
+                android:id="@+id/textet2"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textet"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center_vertical|end"
+                android:text="@string/bio"
+                android:textColor="#0B1C1E"
+
+                android:textSize="40px"></TextView>
+
+            <TextView
+                android:id="@+id/textet3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textet2"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+
+
+
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-thin"
+
+
+                android:textSize="30px"></TextView>
+
+            <TextView
+                android:id="@+id/textet4"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textet3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/chem"
+
+                android:textColor="#020E17"
+                android:textSize="40px"></TextView>
+
+            <TextView
+                android:id="@+id/textet5"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/textet4"
+                android:fontFamily="sans-serif-thin"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="5dp"
+                android:textSize="30px"></TextView>
+
+            <TextView
+                android:id="@+id/textet6"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textet5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/prevent"
+                android:textColor="#17050B"
+                android:textSize="40px"></TextView>
+
+            <TextView
+                android:id="@+id/textet7"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/textet6"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-thin"
+                android:justificationMode="inter_word"
+
+android:layout_marginBottom="10dp"
+                android:textSize="30px"></TextView>
+
+            <TextView
+                android:id="@+id/tttt"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textet7"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="2.5dp"
+
+                android:fontFamily="sans-serif-black"
+                android:text="@string/click"
+
+                android:textColor="#4C5ABA"
+                android:textSize="35px"></TextView>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/textet7"
+                android:id="@+id/btnbtn"
+                android:src="@drawable/volume"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+
+
+                android:layout_toRightOf="@id/tttt"
+android:layout_marginLeft="5dp"
+android:text="click"
+                android:layout_marginBottom="50dp"
+
+                ></ImageButton>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</RelativeLayout>

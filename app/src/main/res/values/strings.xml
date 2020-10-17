@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FARM DOCTOR</string>
+    <string name="warn">PLEASE FIRSTLY SELECT IMAGE AND UPLOAD IT THEN CLICK ON PREDICT NOW BUTTON OTHERWISE APP WILL NOT RESPOND </string>
+    <string name="select">Select Image !</string>
+    <string name="spl1">
+FARM DOCTOR</string>
+    <string name="wait">WAIT TILL\nPREDICTION</string>
+    <string name="spl2">PREDICT EASILY</string>
+    <string name="predict">PREDICT NOW  !</string>
+    <string name="disease">DISEASE :</string>
+    <string name="false_smut">FALSE SMUT</string>
+    <string name="hel">\nYOUR CROP IS HEALTHY.SO, IT DOESN\'T REQUIRED ANY DRUG AND PRECAUTION \n  </string>
+
+    <string name="head">PREDICTION RESULT</string>
+    <string name="neck">NECK BLAST</string>
+    <string name="bect">BACTERIAL BLIGHT</string>
+    <string name="healt">NO DISEASE</string>
+    <string name="nc">To this day, no effective biological control of the disease is commercially available. Experiments are ongoing to test the viability of products based on Streptomyces or Pseudomonas bacteria on the fungus and the incidence/ spread of the disease.</string>
+    <string name="nb">Always consider an integrated approach with preventive measures together with biological treatments if available. Seed treatment with thiram is effective against the disease. Fungicides containing azoxystrobin, or active ingredients of the family of triazoles or strobilurins can also be sprayed at nursery, tillering and panicle emergence stages to control rice blast. One or two fungicide applications at heading can be effective in controlling the disease.</string>
+    <string name="np">1.Use healthy or certified seed material.\n2.Plant resistant varieties available in the area.\n3.Sow seeds early in the season, after the onset of the rainy season.\n4.Avoid excessive nitrogen and split the applications into two or more treatments\n5.Avoid drought stress to the plants with regular irrigation.\n6.Keep a proper flood level for the rice to grow properly.\n7.Maintain continuous flooding and avoid drainage of the rice field.\n8.Maintain control of weeds and alternative hosts.\n9.Apply silicon fertilizers if the soil is known to be silicon deficient.\n10.Cheap sources of silicon include straws of rice varieties with the high silicon content.\n11.Monitor your field regularly for symptoms.\n12.Destroy all infected plant residues to prevent the carry-over of the fungus in the field.\n13.Plan a crop rotation as a simple and effective way to reduce populations</string>
+    <string name="fc">The treatment of seeds at 52°C for 10 min is an effective way to reducethe incidence of the disease. A preventive spray with copper-based fungicides during panicle emergence (2.5 gm per liter of water) Nlso. Once detected, spray the crop with copper-based fungicides to control the disease and increase yields slightly.</string>
+    <string name="fb">Always consider an integrated approach with preventive measures together with biological treatment if available. Seed treatment with fungicides usually do not hold the disease in check. Spraying preventively during panicle emergence (50 to 100 %) with the following products can be effective: azoxystrobin, propiconazole, chlorothalonil, azoxystrobin + propiconazole, trifloxystrobin + propiconazole, trifloxystrobin + tebuconazole.Other products may help to effectively inhibit the progression of the disease once detected: aureofungin, captan or mancozeb.</string>
+    <string name="fp">1.Use healthy seeds from certified retailers.\n2.Use available resistant varieties.\n3.If possible plant early to avoid the worst of the disease.\n4.Alternate wetting and drying of the fields rather than permanent flooding (reduction of humidity).\n5.Make a moderate use of nitrogen, and divide it in split applications.\n6.Monitor fields for signs of the disease.\n7.Keep field bunds and irrigation channels clean.\n8.Keep the field clean of weeds and remove infected plant debris, panicles and seeds after harvest.\n9.Deep plow and solarization of the field after harvest also help to reduce the carry-over.\n10.Where possible, perform conservation tillage and continuous ricecropping.\n11.Plan a 2- or 3-year crop rotation with non-susceptible crops.</string>
+
+    <string name="bc">Soaking of infested seeds in hot water at 60°C for 20 min, followed by drying in shallow layers at 30°C overnight or at 50°C for 4h, reduces the number of bacteria significantly. Seeds can also be immersed in water and heated in a microwave oven until the water temperature reaches 73°C followed by immediate disposal of the water.
+           </string>
+
+    <string name="bb">Always consider an integrated approach with preventive measures and biological treatment if available. There is no direct chemical control of cassava bacterial blight available at the moment. You are welcome to notify us, if you know of any. Please notify the presence of the pathogen to the quarantine authorities.
+</string>
+
+    <string name="bp">1.Obtain seeds from certified sources and chose resistant varieties, if available in your area.\n2.Do not plant close or downwind from an infected plot.\n3.Cut out infected plants if only a few plants show symptoms.\n4.Tools should be regularly disinfected using a bactericide.\n5.Practice crop rotation and fallowing for at least one rainy season.\n6.All infected plant debris and weeds on which pathogen may survive should be removed and burned or deep buried.\n7.Plant manioc towards the end of the rainy season to delay the development of the disease during the growing period.\n8.Intercrop cassava with maize or melon can be beneficial.\n9.Increase the potassium content of the soil by fertilization to reduce disease severity.</string>
+    <string name="bio">
+BIOLOGICAL CONTROL :
+</string>
+    <string name="chem">CHEMICAL CONTROL :</string>
+    <string name="prevent">PREVENTIVE MEASURES :</string>
+    <string name="click">CLICK HERE TO LISTEN :</string>
+
+
+</resources>

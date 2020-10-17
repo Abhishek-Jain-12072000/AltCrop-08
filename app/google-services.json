@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "700038546694",
+    "firebase_url": "https://smart-learning-f10b8.firebaseio.com",
+    "project_id": "smart-learning-f10b8",
+    "storage_bucket": "smart-learning-f10b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700038546694:android:1ac48e551e43a9fce44a87",
+        "android_client_info": {
+          "package_name": "com.example.dieseaseprediction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700038546694-08cl5mpi8necfpgnmt9j3mk2apcgldh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqVF0TGAkW6yIP3KNQc-Z0Q_YqKzW1r_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700038546694-08cl5mpi8necfpgnmt9j3mk2apcgldh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
