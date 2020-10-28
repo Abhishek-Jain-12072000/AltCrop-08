@@ -51,17 +51,15 @@ public class MainActivity extends AppCompatActivity {
     FirebaseVisionImage image; // preparing the input image
     TextView textView; // Displaying the label for the input image
     Button button; // To select the image from device
-ViewPager viewPager;
+    ViewPager viewPager;
     TextView m;
 
     Timer timer;
-   TabLayout tabLayout;
+    TabLayout tabLayout;
     private FirebaseAutoMLLocalModel localModel;
     Button bbbb;
     Uri uri;
     public String eachlabel;
-
-
 
 
     @Override
@@ -69,28 +67,22 @@ ViewPager viewPager;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.selectImage);
-        m=findViewById(R.id.mtext);
-        m.setSelected(true);
+//        m = findViewById(R.id.mtext);
+//        m.setSelected(true);
 
-bbbb=findViewById(R.id.btn);
-textView=findViewById(R.id.text);
-
+        bbbb = findViewById(R.id.btn);
+        textView = findViewById(R.id.text);
 
 
         viewPager = findViewById(R.id.viewflip1);
 
-        view_pager_adapter ad=new view_pager_adapter(this);
+        view_pager_adapter ad = new view_pager_adapter(this);
         viewPager.setAdapter(ad);
 
 
-        tabLayout =findViewById(R.id.tab_layout);
-        final int a=ad.sliderImageId.length;
-        tabLayout.setupWithViewPager(viewPager,true);
-
-
-
-
-
+        tabLayout = findViewById(R.id.tab_layout);
+        final int a = ad.sliderImageId.length;
+        tabLayout.setupWithViewPager(viewPager, true);
 
 
         TimerTask timerTask = new TimerTask() {
@@ -107,16 +99,6 @@ textView=findViewById(R.id.text);
         };
         timer = new Timer();
         timer.schedule(timerTask, 3000, 3000);
-
-
-
-
-
-
-
-
-
-
 
 
         progressDialog = new ProgressDialog(MainActivity.this);
@@ -136,9 +118,8 @@ textView=findViewById(R.id.text);
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, predict.class);
 
-                String getrec=textView.getText().toString();
-                String getrec1=uri.toString();
-
+                String getrec = textView.getText().toString();
+                String getrec1 = uri.toString();
 
 
 //Create the bundle
@@ -146,7 +127,7 @@ textView=findViewById(R.id.text);
 
 //Add your data to bundle
                 bundle.putString("nf", getrec);
-                bundle.putString("if",getrec1);
+                bundle.putString("if", getrec1);
 
 
 //Add the bundle to the intent
@@ -162,7 +143,7 @@ textView=findViewById(R.id.text);
     }
 
 
-    private void fromRemoteModel(){
+    private void fromRemoteModel() {
         progressDialog.show();                                         /* model name*/
         remoteModel = new FirebaseAutoMLRemoteModel.Builder("crop_2020925202315").build();
         conditions = new FirebaseModelDownloadConditions.Builder().requireWifi().build();
@@ -177,6 +158,7 @@ textView=findViewById(R.id.text);
 
 
     }
+
     private void setLabelerFromLocalModel(Uri uri) {
         localModel = new FirebaseAutoMLLocalModel.Builder()
                 .setAssetFilePath("model/manifest.json")
@@ -239,8 +221,8 @@ textView=findViewById(R.id.text);
                 }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Log.e("TAG", "onFailure: "+e );
-                Toast.makeText(MainActivity.this, "err"+e, Toast.LENGTH_SHORT).show();
+                Log.e("TAG", "onFailure: " + e);
+                Toast.makeText(MainActivity.this, "err" + e, Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -252,7 +234,7 @@ textView=findViewById(R.id.text);
             public void onComplete(@NonNull Task<List<FirebaseVisionImageLabel>> task) {
                 progressDialog.cancel();
                 for (FirebaseVisionImageLabel label : task.getResult()) {
-                     eachlabel = label.getText().toUpperCase();
+                    eachlabel = label.getText().toUpperCase();
 
                     float confidence = label.getConfidence();
                     textView.append(eachlabel + " - " + ("" + confidence * 100).subSequence(0, 4) + "%" + "\n\n");

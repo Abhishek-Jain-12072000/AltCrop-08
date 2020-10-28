@@ -8,8 +8,8 @@
     tools:context=".Final">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
         android:layout_width="320dp"
@@ -22,8 +22,8 @@
         android:layout_marginLeft="20dp">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/prediction"
@@ -120,6 +120,14 @@
 
 
                 android:textSize="30px"></TextView>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow" />
 
             <TextView
                 android:id="@+id/textet4"
