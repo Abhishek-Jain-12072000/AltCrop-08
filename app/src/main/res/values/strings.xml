@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">FARM DOCTOR</string>
+    <string name="app_name">Farm Doctor</string>
     <string name="warn">PLEASE FIRSTLY SELECT IMAGE AND UPLOAD IT THEN CLICK ON PREDICT NOW BUTTON OTHERWISE APP WILL NOT RESPOND </string>
-    <string name="select">Select Image !</string>
-    <string name="spl1">
-FARM DOCTOR</string>
-    <string name="wait">WAIT TILL\nPREDICTION</string>
+    <string name="select">Select An Image</string>
+    <string name="spl1">FARM DOCTOR</string>
+    <string name="wait">Predicting Result . . .</string>
     <string name="spl2">PREDICT EASILY</string>
-    <string name="predict">PREDICT NOW  !</string>
+    <string name="predict">Predict Now</string>
     <string name="disease">DISEASE :</string>
     <string name="false_smut">FALSE SMUT</string>
     <string name="hel">\nYOUR CROP IS HEALTHY.SO, IT DOESN\'T REQUIRED ANY DRUG AND PRECAUTION \n  </string>
@@ -35,6 +34,8 @@ BIOLOGICAL CONTROL :
     <string name="chem">CHEMICAL CONTROL :</string>
     <string name="prevent">PREVENTIVE MEASURES :</string>
     <string name="click">CLICK HERE TO LISTEN :</string>
+    <string name="farmDr">Farm Doctor</string>
+    <string name="framdoctor">Farm Doctor</string>
 
 
 </resources>
