@@ -55,7 +55,7 @@
                     android:textStyle="bold"
                     android:textSize="25sp"
                     android:textColor="#09601E"
-                    android:text="@string/framdoctor" />
+                    android:text="@string/app_name" />
 
                 <ImageView
                     android:id="@+id/imageView2"

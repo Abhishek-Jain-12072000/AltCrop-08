@@ -28,14 +28,12 @@
 </string>
 
     <string name="bp">1.Obtain seeds from certified sources and chose resistant varieties, if available in your area.\n2.Do not plant close or downwind from an infected plot.\n3.Cut out infected plants if only a few plants show symptoms.\n4.Tools should be regularly disinfected using a bactericide.\n5.Practice crop rotation and fallowing for at least one rainy season.\n6.All infected plant debris and weeds on which pathogen may survive should be removed and burned or deep buried.\n7.Plant manioc towards the end of the rainy season to delay the development of the disease during the growing period.\n8.Intercrop cassava with maize or melon can be beneficial.\n9.Increase the potassium content of the soil by fertilization to reduce disease severity.</string>
-    <string name="bio">
-BIOLOGICAL CONTROL :
-</string>
-    <string name="chem">CHEMICAL CONTROL :</string>
-    <string name="prevent">PREVENTIVE MEASURES :</string>
+    <string name="bio">BIOLOGICAL CONTROL :-</string>
+    <string name="chem">CHEMICAL CONTROL :-</string>
+    <string name="prevent">PREVENTIVE MEASURES :-</string>
     <string name="click">CLICK HERE TO LISTEN :</string>
-    <string name="farmDr">Farm Doctor</string>
-    <string name="framdoctor">Farm Doctor</string>
+<!--    <string name="farmDr">Farm Doctor</string>-->
+<!--    <string name="framdoctor">Farm Doctor</string>-->
 
 
 </resources>

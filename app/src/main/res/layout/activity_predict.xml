@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/hd_leaf"
     tools:context=".predict">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -26,8 +27,8 @@
         android:gravity="center_horizontal"
         android:text="@string/wait"
         android:textAlignment="center"
-        android:textColor="#09601E"
-        android:textSize="40sp"></TextView>
+        android:textColor="#ffffff"
+        android:textSize="35sp"></TextView>
 
     <TextView
         android:layout_width="wrap_content"
