@@ -9,38 +9,42 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
+
 
     <androidx.cardview.widget.CardView
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:cardCornerRadius="20dp"
-
-
-
-        android:layout_marginTop="29dp"
-        android:layout_marginLeft="20dp">
+        android:layout_marginBottom="20dp"
+        android:layout_margin="20dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorAccent">
+
 
             <TextView
                 android:id="@+id/prediction"
-
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="53dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/basic"
+                android:gravity="center"
                 android:text="@string/head"
-
                 android:textColor="#0B5712"
-                android:textSize="45px"
+                android:textSize="25sp"
                 android:textStyle="bold"></TextView>
 
-<androidx.cardview.widget.CardView
+
+            <androidx.cardview.widget.CardView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="60dp"
@@ -49,30 +53,24 @@
 
     <ImageView
         android:id="@+id/images"
-
         android:layout_width="250dp"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/imground"
->
-
+        android:src="@drawable/imground">
     </ImageView>
+
 </androidx.cardview.widget.CardView>
 
 
             <TextView
                 android:id="@+id/textet"
-
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_width="95dp"
+                android:layout_height="25dp"
                 android:layout_marginLeft="20dp"
-
                 android:layout_marginTop="270dp"
                 android:fontFamily="sans-serif-black"
                 android:text="@string/disease"
-                android:textColor="#09020B"
-
-
+                android:textColor="#09601E"
                 android:textSize="40px"></TextView>
 
             <TextView
@@ -81,12 +79,8 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="270dp"
                 android:layout_toRightOf="@+id/textet"
-
                 android:fontFamily="sans-serif-black"
-
                 android:textColor="#AF0F0F"
-
-
                 android:textSize="40px"></TextView>
 
 
@@ -97,12 +91,10 @@
                 android:layout_below="@+id/textet"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="5dp"
-
                 android:fontFamily="sans-serif-black"
                 android:layout_gravity="center_vertical|end"
                 android:text="@string/bio"
-                android:textColor="#0B1C1E"
-
+                android:textColor="#09601E"
                 android:textSize="40px"></TextView>
 
             <TextView
@@ -112,21 +104,25 @@
                 android:layout_below="@+id/textet2"
                 android:layout_marginLeft="20dp"
                 android:justificationMode="inter_word"
-
-
-
                 android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif-thin"
-
-
-                android:textSize="30px"></TextView>
+                android:padding="5dp"
+                android:background="@drawable/text_background"
+                android:fontFamily="@font/roboto"
+                android:textSize="40px"></TextView>
 
             <View
-                android:id="@+id/divider"
-                android:layout_width="300dp"
-                android:layout_height="2dp"
-                android:layout_gravity="center"
+                android:id="@+id/div1"
+                android:layout_width="250dp"
+                android:layout_height="3dp"
+                android:layout_below="@+id/textet5"
+                android:layout_alignStart="@+id/textet5"
+                android:layout_alignLeft="@+id/textet5"
+                android:layout_alignEnd="@+id/textet5"
+                android:layout_alignRight="@+id/textet5"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@color/yellow" />
 
             <TextView
@@ -135,11 +131,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textet3"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-black"
                 android:text="@string/chem"
-
-                android:textColor="#020E17"
+                android:textColor="#09601E"
                 android:textSize="40px"></TextView>
 
             <TextView
@@ -148,10 +143,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_below="@+id/textet4"
-                android:fontFamily="sans-serif-thin"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
-                android:textSize="30px"></TextView>
+                android:padding="5dp"
+                android:background="@drawable/text_background"
+                android:fontFamily="@font/roboto"
+                android:textSize="40px"></TextView>
+
+            <View
+                android:id="@+id/div2"
+                android:layout_width="20dp"
+                android:layout_height="3dp"
+                android:layout_below="@+id/textet3"
+                android:layout_alignStart="@+id/textet3"
+                android:layout_alignLeft="@+id/textet3"
+                android:layout_alignEnd="@+id/textet3"
+                android:layout_alignRight="@+id/textet3"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/yellow"
+                android:layout_marginLeft="20dp" />
 
             <TextView
                 android:id="@+id/textet6"
@@ -159,10 +171,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textet5"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-black"
                 android:text="@string/prevent"
-                android:textColor="#17050B"
+                android:textColor="#09601E"
                 android:textSize="40px"></TextView>
 
             <TextView
@@ -172,49 +184,48 @@
                 android:layout_marginLeft="20dp"
                 android:layout_below="@+id/textet6"
                 android:layout_marginTop="5dp"
-                android:fontFamily="sans-serif-thin"
                 android:justificationMode="inter_word"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="@drawable/text_background"
+                android:fontFamily="@font/roboto"
+                android:textSize="40px"></TextView>
 
-android:layout_marginBottom="10dp"
-                android:textSize="30px"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
 
-            <TextView
-                android:id="@+id/tttt"
-                android:layout_width="205dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/textet7"
-                android:layout_marginLeft="43dp"
-                android:layout_marginTop="2.5dp"
-
-                android:fontFamily="sans-serif-black"
-                android:text="@string/click"
-
-                android:textColor="#4C5ABA"
-                android:textSize="35px"></TextView>
+<!--            <TextView-->
+<!--                android:id="@+id/tttt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/textet7"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:fontFamily="sans-serif-black"-->
+<!--                android:text="@string/click"-->
+<!--                android:textColor="#09601E"-->
+<!--                android:textSize="50px"></TextView>-->
 
             <ImageButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_below="@+id/textet7"
                 android:id="@+id/btnbtn"
-                android:src="@drawable/volume"
-                android:scaleType="fitXY"
+                android:layout_width="24dp"
+                android:layout_height="26dp"
+                android:layout_above="@+id/textet3"
+                android:layout_alignTop="@+id/textet2"
+                android:layout_marginStart="-15dp"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="-2dp"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@+id/textet2"
+                android:layout_toRightOf="@+id/textet2"
                 android:background="#ffffff"
-
-
-                android:layout_toRightOf="@id/tttt"
-android:layout_marginLeft="5dp"
-android:text="click"
-                android:layout_marginBottom="50dp"
-
-                ></ImageButton>
-
-
-
-
-
-
-
+                android:backgroundTint="@color/colorAccent"
+                android:scaleType="fitXY"
+                android:src="@drawable/volume"
+                android:text="click"
+                tools:ignore="UnknownId"></ImageButton>
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
