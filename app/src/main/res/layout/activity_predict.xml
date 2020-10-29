@@ -12,7 +12,6 @@
         android:layout_height="200dp"
         android:layout_marginTop="180dp"
         android:layout_gravity="center"
-
         app:lottie_autoPlay="true"
         app:lottie_fileName="pred1.json"
         app:lottie_loop="true"
@@ -20,14 +19,14 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="133dp"
+        android:layout_height="136dp"
 
         android:layout_marginTop="80dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/basic"
         android:gravity="center_horizontal"
         android:text="@string/wait"
         android:textAlignment="center"
-        android:textColor="#053960"
+        android:textColor="#09601E"
         android:textSize="40sp"></TextView>
 
     <TextView
